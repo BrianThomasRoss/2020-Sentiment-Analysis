@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2020-sentiment-analysis"
+version = "0.1.0"
+description = "Sentiment analysis related to the 2020 election"
+authors = ["Brian Thomas Ross <ml@brianthomasross.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^2.2.5"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

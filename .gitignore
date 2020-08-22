@@ -1,0 +1,13 @@
+# Build system
+.python-version
+.poetry-lock
+# Byte code
+__pycache__/
+*.pyc
+# Environments
+.env
+# Editors
+.idea/
+.vscode/
+# Jupyter
+.ipynb_checkpoints/

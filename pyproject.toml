@@ -6,6 +6,10 @@ authors = ["Brian Thomas Ross <ml@brianthomasross.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6.9"
+tweepy = "^3.9.0"
+environs = "^8.0.0"
+pandas = "^1.1.1"
+numpy = "^1.19.1"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^2.2.5"
